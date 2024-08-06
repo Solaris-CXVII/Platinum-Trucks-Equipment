@@ -1,0 +1,66 @@
+.blogs {
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-bottom: 90px;
+  margin-top: 80px;
+}
+
+.blogs-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.blogs-content {
+  display: grid;
+  grid-template-areas:
+    "blog1 blog2 blog3"
+    "blog4 blog5 blog6";
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.blogs-content-container {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.blog1 {
+  grid-area: blog1;
+}
+
+.blog2 {
+  grid-area: blog2;
+}
+
+.blog3 {
+  grid-area: blog3;
+}
+
+.blog4 {
+  grid-area: blog4;
+}
+
+.blog5 {
+  grid-area: blog5;
+}
+
+.blog6 {
+  grid-area: blog6;
+}
+
+.container-image {}
+
+.blogimage {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.container-header {}
+
+.container-paragraph {}
+
+.container-button {}

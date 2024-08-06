@@ -1,0 +1,159 @@
+.about-landing {}
+
+.about-landing-background {}
+
+.about-landing-img {
+  width: 100%;
+  z-index: -1;
+}
+
+.about-landing-header {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-25%, -50%);
+  text-align: center;
+}
+
+.about-landing-text {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 4%;
+  padding-bottom: 7%;
+}
+
+.about-sublanding-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "about-sublanding-img about-sublanding-text-containers";
+}
+
+.about-sublanding-img {
+  grid-area: about-sublanding-img;
+  margin-left: 70px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+.about-sublanding-text-containers {
+  grid-area: about-sublanding-text-containers;
+  margin-left: 30px;
+  margin-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+}
+
+.sublanding-textmaintext {}
+
+.sublanding-text-button {}
+
+.sublanding-text-number {}
+
+.about-services-categories {
+  display: grid;
+  grid-template-areas:
+    "services-categories-name"
+    "trucks"
+    "equipment";
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.services-categories-name {}
+
+.service-category {}
+
+.truck {}
+
+.category-name {}
+
+.categories-icons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.category-icons {}
+
+.category-icon {
+  border-radius: 20px;
+}
+
+.equipment {}
+
+.about-prefooter-text {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  border: 5px solid #f9a801;
+  border-radius: 20px;
+  background: #404040;
+  color: #fff;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-areas:
+    "prefooter-text-header"
+    "pfcontainer1"
+    "pfcontainer2"
+    "pfcontainer3";
+}
+
+.prefooter-text-container {
+  margin-bottom: 10px;
+}
+
+.prefooter-h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.prefooter-text-maintextcontainer {
+  display: grid;
+  grid-template-areas:
+    "maintextcontainer-icon maintextcontainer-header"
+    "maintextcontainer-icon maintextcontainer-paragraph";
+}
+
+.pfcontainer1 {
+  grid-area: pfcontainer1;
+}
+
+.pfcontainer2 {
+  grid-area: pfcontainer2;
+}
+
+.pfcontainer3 {
+  grid-area: pfcontainer3;
+}
+
+.prefooter-text-header {
+  grid-area: prefooter-text-header;
+}
+
+.prefooter-text-maintextcontainer {
+  grid-area: prefooter-text-maincontainer;
+}
+
+.maintextcontainer-icon {
+  grid-area: maintextcontainer-icon;
+}
+
+.maintextcontainer-header {
+  grid-area: maintextcontainer-header;
+  margin-left: 20px;
+}
+
+.maintextcontainer-paragraph {
+  grid-area: maintextcontainer-paragraph;
+  margin-left: 20px;
+}

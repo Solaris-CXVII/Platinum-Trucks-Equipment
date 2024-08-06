@@ -1,0 +1,107 @@
+.products {
+  border-radius: 40px;
+  border: 5px solid #2b2b2b;
+  background: #333;
+  display: grid;
+  grid-template-columns: 0.3fr 0.03fr 1fr;
+  grid-template-areas: "products-filters verticallinesplit products-containers";
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.verticallinesplit-container {
+  grid-area: verticallinesplit;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.verticallinesplit {
+  border-left: 5px solid #f9a801;
+  height: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.products-filters-containers {
+  grid-area: products-filters;
+  margin-top: 100px;
+  padding-right: 20px;
+}
+
+.products-filters {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.f-maker {}
+
+.f-model {}
+
+.f-fuel {}
+
+.f-location {}
+
+.f-condition {}
+
+.f-transmission {}
+
+.f-status {}
+
+.products-containers {}
+
+.products-containers-content {
+  display: grid;
+  grid-template-areas:
+    "slot1"
+    "slot2"
+    "slot3"
+    "slot4"
+    "slot5";
+}
+
+.products-containers-content-slot {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 0.25fr 1fr 0.25fr 1fr 0.25fr;
+  grid-template-areas: ". tab1 . tab2 . tab3 .";
+  margin-bottom: 40px;
+}
+
+.slot1 {}
+
+.slot2 {}
+
+.slot3 {}
+
+.slot4 {}
+
+.slot5 {}
+
+.products-containers-subselect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.selector {
+  border-radius: 5px;
+  background: #05acfe;
+  color: white;
+  width: 40px;
+  padding: 10px 14px 10px 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900px;
+  margin-right: 3px;
+  margin-left: 3px;
+}

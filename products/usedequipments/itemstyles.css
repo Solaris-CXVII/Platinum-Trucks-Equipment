@@ -1,0 +1,149 @@
+.itemview-maincontainer {
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 5px solid #2b2b2b;
+  background: #333;
+  border-radius: 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-areas:
+    "maincontainer-header"
+    "maincontainer-content";
+}
+
+.maincontainer-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "maincontainer-header-left maincontainer-header-right";
+  grid-area: maincontainer-header;
+}
+
+.maincontainer-header-left {
+  grid-area: maincontainer-header-left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header-left-header {}
+
+.header-left-image {}
+
+.item-image {
+  width: 100%;
+}
+
+.header-left-button {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.maincontainer-header-right {
+  grid-area: maincontainer-header-right;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.header-right-header {}
+
+.header-right-image {}
+
+.right-image-main {}
+
+.right-image {
+  width: 100%;
+}
+
+.right-image-sub-container {
+  display: grid;
+  grid-template-areas: "right-image-selector-left sub1 sub2 sub3 right-image-selector-right";
+}
+
+.right-image-sub {}
+
+.right-image-button {
+  justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub1 {
+  grid-area: sub1;
+}
+
+.sub2 {
+  grid-area: sub2;
+}
+
+.sub3 {
+  grid-area: sub3;
+}
+
+.right-image-selector-left {
+  grid-area: right-image-selector-left;
+  margin-left: 20px;
+}
+
+.right-image-selector-right {
+  grid-area: right-image-selector-right;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.imageselector {}
+
+.maincontainer-content {}
+
+.maincontainer-content-header {}
+
+.maincontent-content-container {
+  display: grid;
+  grid-template-areas: "maindetailname maindetailcontent";
+}
+
+.maindetailname {}
+
+.header-left-button-contact {
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: #007ed9;
+  color: #fff;
+  margin-right: 7px;
+}
+
+.header-left-button-call {
+  padding: 15px 50px;
+  border-radius: 5px;
+  background-color: #f9a801;
+  color: #fff;
+  margin-right: 7px;
+}
+
+.bluetag {
+  color: #007ed9;
+}
+
+.maincontent-hr {
+  background-color: #614814;
+  height: 2px;
+  border: none;
+}
+
+.service-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #007ed9;
+  color: #fff;
+  margin-right: 7px;
+  border-color: #007ed9;
+}
